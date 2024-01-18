@@ -1,0 +1,70 @@
+body {
+    background-color:  yellow;
+}
+
+/* HEADER STYLES START */
+header,
+h2 {
+    font-family: 'Lobster', sans-serif;
+    align-content: right;
+}
+
+.title {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+}
+
+section h2 {
+    margin: 10px;
+    width: 20vw;
+    border-right: 3px solid black;
+}
+
+section div {
+    width: 70vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.row {
+    border: 1px solid black;
+}
+
+.row img {
+    width: 100%;
+}
+
+#row2, #row3 {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(assets/IMG_2392.JPG);
+}
+.about-content {
+    display: flex;
+    padding: 1em;
+   
+}
+.about-content img {
+    margin: 1em;
+}
+#row2 img, #row3 img {
+    width: 40%
+} 
